@@ -1,4 +1,4 @@
-# Reinforcement Learning Fine-Tuning (RLL)
+# LLM Fine-Tuning using Direct Preference Optimization (DPO) for Reward-Aligned Text Generation
 
 ## Overview
 This project explores how reinforcement learning can be used to fine-tune model behavior using reward-driven optimization. Instead of relying only on static supervised learning, the approach focuses on iterative improvement through feedback signals.
