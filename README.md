@@ -1,7 +1,9 @@
 # LLM Fine-Tuning using Direct Preference Optimization (DPO) for Reward-Aligned Text Generation
 
 ## Overview
-This project explores how reinforcement learning can be used to fine-tune model behavior using reward-driven optimization. Instead of relying only on static supervised learning, the approach focuses on iterative improvement through feedback signals.
+This project demonstrates LLM fine-tuning using Direct Preference Optimization (DPO) with a small custom preference dataset and Hugging Face TRL. The objective is to align model outputs toward a campaign-style persuasive communication tone by training on prompt, chosen, and rejected response pairs.
+
+The notebook uses `Qwen/Qwen2.5-0.5B-Instruct` as the base model and evaluates output quality before and after preference alignment.
 
 The goal is to simulate how models can learn better decision-making strategies over time by optimizing for defined rewards.
 
